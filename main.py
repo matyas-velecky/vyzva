@@ -24,11 +24,12 @@ def table_make(df):
     return table
 
 def menu(num):
+    file = import_csv('./dochazka.csv')
     if num == 1:
-        console.print(table_make(import_csv('./dochazka.csv')))
+        console.print(table_make(file))
         return True
     if num == 2:
-        
+        file = json.dump()
         return True
     if num == 3:
         
