@@ -29,7 +29,6 @@ def menu(num):
         console.print(table_make(file))
         return True
     if num == 2:
-        file = json.dump()
         return True
     if num == 3:
         
